@@ -1,4 +1,4 @@
-From ubuntu:24.04
+FROM ubuntu:24.04
 
 # Install a few dependencies
 RUN apt-get -qq update && \
@@ -22,3 +22,4 @@ ENV PATH $PATH:/usr/local/bin/
 
 COPY docker-entry.sh /usr/local/bin/docker-entry.sh
 ENTRYPOINT ["/usr/local/bin/docker-entry.sh"]
+CMD ["/bin/bash"]
