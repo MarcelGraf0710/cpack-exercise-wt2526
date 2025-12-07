@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: cpackexample
+Source: https://github.com/MarcelGraf0710/cpack-exercise-wt2526
+
+Files: *
+Copyright: 2025 Marcel Graf
+License: MIT
