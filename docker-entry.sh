@@ -23,3 +23,5 @@ for f in "${results[@]}"; do
 done
 
 ls -l "$OUT_DIR"
+
+exec "$@"
