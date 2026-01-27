@@ -24,4 +24,6 @@ done
 
 ls -l "$OUT_DIR"
 
+cp -r out /mnt/cpack-exercise/
+
 exec "$@"
